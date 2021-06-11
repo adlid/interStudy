@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+        <div class="header__nav">
+            <nav class="header__menu fill">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <div class="menu__body ">
+                    <ul class="header__list menu__list">
+                        <li class="header__item" data-goto=".portfolio">
+                            <a href="#" class="header__link menu__link">О нас</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" data-goto=".portfolio" class="header__link menu__link">
+                                Услуги
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__list menu__list">
+                        <li class="header__item">
+                            <a href="#" data-goto=".quality" class="header__link menu__link">
+                              <img class="header__logo-img header__logo-img--desktop" src="images/Logo.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__list menu__list">
+                        <li class="header__item">
+                            <a href="#" class="header__link menu__link">Контакты</a>
+                        </li>
+                        <li class="header__item header__item-svg menu__link">
+                            <?xml-stylesheet type="text/css" href="svgstyle.css"?>
+                                <svg class="header__svg" width="32" height="32" viewBox="0 0 32 32" fill="rgb(211, 209, 209)" xmlns="http://www.w3.org/2000/svg">
+                            <path  class="first" d="M19.9272 5C21.6225 5.45592 23.1682 6.34928 24.4095 7.59059C25.6508 8.8319 26.5441 10.3776 27.0001 12.0728" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path  d="M18.8916 8.86462C19.9087 9.13818 20.8362 9.67419 21.5809 10.419C22.3257 11.1638 22.8617 12.0912 23.1353 13.1083" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.5595 15.6019C12.5968 17.7226 14.3158 19.4338 16.4412 20.4614C16.5967 20.5351 16.7687 20.567 16.9403 20.554C17.1119 20.541 17.2771 20.4836 17.4198 20.3874L20.5492 18.3006C20.6877 18.2083 20.8469 18.152 21.0126 18.1368C21.1782 18.1215 21.3451 18.1479 21.498 18.2134L27.3526 20.7225C27.5515 20.807 27.7175 20.9538 27.8257 21.1409C27.9339 21.328 27.9783 21.5451 27.9524 21.7596C27.7673 23.2076 27.0608 24.5385 25.9652 25.5031C24.8695 26.4678 23.4598 26.9999 22 27C17.4913 27 13.1673 25.2089 9.97919 22.0208C6.79107 18.8327 5 14.5087 5 10C5.00008 8.54022 5.53224 7.13052 6.49685 6.03485C7.46146 4.93918 8.79237 4.23267 10.2404 4.04763C10.4549 4.02167 10.672 4.06612 10.8591 4.1743C11.0461 4.28248 11.193 4.44852 11.2775 4.6474L13.7888 10.5071C13.8537 10.6587 13.8802 10.824 13.8658 10.9883C13.8514 11.1525 13.7967 11.3107 13.7064 11.4487L11.6268 14.6261C11.5322 14.7691 11.4762 14.9341 11.4644 15.1051C11.4526 15.2762 11.4854 15.4473 11.5595 15.6019Z" stroke="#1DC869" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="fou"  d="M19.9272 5C21.6225 5.45592 23.1682 6.34928 24.4095 7.59059C25.6508 8.8319 26.5441 10.3776 27.0001 12.0728" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="second__line" d="M18.8916 8.86462C19.9087 9.13818 20.8362 9.67419 21.5809 10.419C22.3257 11.1638 22.8617 12.0912 23.1353 13.1083" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path id="six" d="M11.5595 15.6019C12.5968 17.7226 14.3158 19.4338 16.4412 20.4614C16.5967 20.5351 16.7687 20.567 16.9403 20.554C17.1119 20.541 17.2771 20.4836 17.4198 20.3874L20.5492 18.3006C20.6877 18.2083 20.8469 18.152 21.0126 18.1368C21.1782 18.1215 21.3451 18.1479 21.498 18.2134L27.3526 20.7225C27.5515 20.807 27.7175 20.9538 27.8257 21.1409C27.9339 21.328 27.9783 21.5451 27.9524 21.7596C27.7673 23.2076 27.0608 24.5385 25.9652 25.5031C24.8695 26.4678 23.4598 26.9999 22 27C17.4913 27 13.1673 25.2089 9.97919 22.0208C6.79107 18.8327 5 14.5087 5 10C5.00008 8.54022 5.53224 7.13052 6.49685 6.03485C7.46146 4.93918 8.79237 4.23267 10.2404 4.04763C10.4549 4.02167 10.672 4.06612 10.8591 4.1743C11.0461 4.28248 11.193 4.44852 11.2775 4.6474L13.7888 10.5071C13.8537 10.6587 13.8802 10.824 13.8658 10.9883C13.8514 11.1525 13.7967 11.3107 13.7064 11.4487L11.6268 14.6261C11.5322 14.7691 11.4762 14.9341 11.4644 15.1051C11.4526 15.2762 11.4854 15.4473 11.5595 15.6019Z" stroke="#686868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                                <a class="header__phone" href="tel:+1 929 220 3377">+1 929 220 3377</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+      <!--SECTION TOP-PAGE-->
+    <section class="top-page">
+        <div class="image-slider swiper-container">
+            <div class="image-slider__wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__images">
+                        <img src="images/top-page-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__images">
+                        <img src="images/top-page-2.jpg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    <div class="image-slider__images">
+                        <img src="images/top-page-6.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>     
+        </div>
+        <div class="top-page__opacity">
+            <div class="top-page__inner">
+                <div class="top-page__title"><span class="txt-rotate" data-period="2000" data-rotate='[ "Хочешь работать в Америке", "Но не знаешь как?", "Мы поможем" ]'></span></div>
+                <a class="btn btn2"> <span class="btn-text"> Оставить заявку </span></a>
+            </div>
+        </div>
+    </section>
+    <!--SECTION PORTFOLIO-->
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__inner">
+                <div class="portfolio__content">
+                    <div class="portfolio__img">
+                        <img src="images/propfile.jpg" alt="">
+                    </div>
+                    <div class="portfolio__wrapper" data-aos="fade-left">
+                        <div class="title portfolio__title">
+                            О <span class="underline">нас</span> 
+                       </div>
+                       <div class="portfolio__text"> 
+                        InterStudy – международный консультант по образованию, создающий
+                        индивидуальные программы академического и практического обучения для
+                        государственных учреждений, академических учреждений и частных компаний со
+                        всего мира  &nbsp 
+                    </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECTION SERVICES-->
+    <section class="services">
+        <div class="container">
+            <div class="services__inner">
+                <div class="title">Наши услуги</div>
+                <div class="reviews__undertitle">Что мы можем предлагать <span class="underline"> вам </span></div>
+                <div class='services__icon-block'>
+                    <div class="services__icon-item" data-aos="fade-up">
+                        <div class="services__icon-box">
+                            <div class="services__icon-images services__icon-images-1">
+                                <svg class="services__svg" width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.9727 31.1765H17.1836C18.0411 31.1765 18.7363 30.4786 18.7363 29.6177V21.8235C18.7363 20.9626 18.0411 20.2646 17.1836 20.2646H10.9727C10.1151 20.2646 9.41992 20.9626 9.41992 21.8235V29.6177C9.41992 30.4786 10.1151 31.1765 10.9727 31.1765ZM12.5254 23.3823H15.6309V28.0588H12.5254V23.3823Z" fill="black"/>
+                                    <path d="M23.3945 31.1765H29.6055C30.463 31.1765 31.1582 30.4786 31.1582 29.6177V17.147C31.1582 16.2861 30.463 15.5881 29.6055 15.5881H23.3945C22.537 15.5881 21.8418 16.2861 21.8418 17.147V29.6177C21.8418 30.4786 22.537 31.1765 23.3945 31.1765ZM24.9473 18.7058H28.0527V28.0588H24.9473V18.7058Z" fill="black"/>
+                                    <path d="M35.8164 31.1765H42.0273C42.8849 31.1765 43.5801 30.4786 43.5801 29.6177V14.0293C43.5801 13.1684 42.8849 12.4705 42.0273 12.4705H35.8164C34.9589 12.4705 34.2637 13.1684 34.2637 14.0293V29.6177C34.2637 30.4786 34.9589 31.1765 35.8164 31.1765ZM37.3691 15.5881H40.4746V28.0588H37.3691V15.5881Z" fill="black"/>
+                                    <path d="M51.4472 9.35293C52.3047 9.35293 52.9999 8.655 52.9999 7.79411V1.55882C52.9999 0.697937 52.3047 0 51.4472 0H1.55273C0.69521 0 0 0.697937 0 1.55882V7.79411C0 8.655 0.69521 9.35293 1.55273 9.35293H3.20898V34.2941H1.55273C0.69521 34.2941 0 34.992 0 35.8529C0 36.7138 0.69521 37.4117 1.55273 37.4117H23.778L12.8887 50.4391C12.3375 51.0986 12.4231 52.0818 13.08 52.6352C13.7371 53.1888 14.7165 53.1025 15.2676 52.4431L24.9472 40.863V51.4411C24.9472 52.302 25.6424 52.9999 26.5 52.9999C27.3575 52.9999 28.0527 52.302 28.0527 51.4411V40.863L37.7324 52.4431C38.2837 53.1027 39.2631 53.1886 39.92 52.6352C40.5769 52.0818 40.6625 51.0985 40.1113 50.4391L29.2219 37.4117H51.4472C52.3047 37.4117 52.9999 36.7138 52.9999 35.8529C52.9999 34.992 52.3047 34.2941 51.4472 34.2941H49.791V9.35293H51.4472ZM3.10547 3.11764H49.8945V6.23529H3.10547V3.11764ZM46.6855 34.2941H6.31445V9.35293H46.6855V34.2941Z" fill="black"/>
+                                    </svg>
+                            </div>
+                            <span class="services__icon-title">
+                            Индивидуальность
+                        </span>
+                        </div>
+                        <div class="services__icon-text">
+                            Компания выбирает  уникальный путь в разработке
+                            индивидуальных программ академического и профессионального обучения,
+                            направленных на раскрытие потенциала наших клиентов для роста и развития
+                        </div>
+                    </div>
+                    <div class="services__icon-item" data-aos="fade-up">
+                        <div class="services__icon-box">
+                            <div class="services__icon-images services__icon-images-1">
+                                <img class="services__icon-images-2" src="images/knowledge.svg" alt="">
+                            </div>
+                            <span class="services__icon-title">
+                            Наш подход
+                        </span>
+                        </div>
+                        <div class="services__icon-text">
+                            Мы
+                            применяем междисциплинарный подход к обучению и передаче знаний, открывая
+                            для наших клиентов широкий спектр академических областей, государственных
+                            учреждений и компаний частного сектора.
+                        </div>
+                    </div>
+                    <div class="services__icon-item" data-aos="fade-up">
+                        <div class="services__icon-box">
+                            <div class="services__icon-images">
+                               <img class="services__icon-images-3"  src="images/handshake.svg" alt="">
+                            </div>
+                            <span class="services__icon-title">
+                            Доверие
+                        </span>
+                        </div>
+                        <div class="services__icon-text">
+                            Мы начали сотрудничество между
+                            Казахстаном и США, а также ведем работу по построению культурных мостов с
+                            другими странами
+                        </div>
+                    </div>
+                </div>
+                <div class="services__slider">
+                    <div class="services__slider__wrapper swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="services__slider-slide swiper-slide">
+                            <div class="services__slider__content ">
+                                <img class="services__slider-img" src="images/service-1.jpg" alt="">
+                                <div class="services__slider-text">
+                                 Организация международных научных и образовательных проектов (семинары, тренинги, конференции, круглые столы, симпозиумы и др.)
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="services__slider-slide swiper-slide">
+                            <div class="services__slider__content ">
+                                <img class="services__slider-img" src="images/service-2.jpg" alt="">
+                                <div class="services__slider-text">
+                                    Консультации и помощь в языковых школах, программах бакалавриата и магистратуры
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__slider-slide swiper-slide">
+                            <div class="services__slider__content ">
+                                <img class="services__slider-img" src="images/service-3.jpg" alt="">
+                                <div class="services__slider-text">
+                                 Организация международных научных и образовательных проектов (семинары, тренинги, конференции, круглые столы, симпозиумы и др.)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__slider-slide swiper-slide">
+                            <div class="services__slider__content ">
+                                <img class="services__slider-img" src="images/service-4.jpg" alt="">
+                                <div class="services__slider-text">
+                                    Информирование и консультирование по предстоящим международным выставкам в области образования, бизнеса, искусства, науки, программ обучения и т.д 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services__slider-slide swiper-slide">
+                            <div class="services__slider__content ">
+                                <img class="services__slider-img" src="images/service-5.jpg" alt="">
+                                <div class="services__slider-text">
+                                    Организация стажировок в государственных учреждениях, некоммерческих организациях, компаниях и агентствах
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="leave-request">
+            <div class="leave-request__inner">
+                <div class="leave-request__content">
+                    <div class="leave-request__title">Мы здесь что бы помочь вам</div>
+                    <div class="leave-request__text">Сы помогли более 1000+ студентов из разных стран 
+                    </div>
+                </div>
+                <div class="leave-request__images">
+                    <button class="leave-request__btn"> Оставить заявку </button>
+                </div>
+               
+            </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="title"> Отзывы</div>
+            <div class="reviews__undertitle">Что о нас говорят наши  <span class="underline"> клиент</span> </div>
+            <div class="slider-nav">
+                <button class=".slider-nav__arrow slider-nav__arrow--prev reviews-slider-nav-prev">
+                    <svg class="svg" width="25" height="35" viewBox="0 0 18 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.7097 34.2722C17.0075 34.5599 17.4821 34.5516 17.7697 34.2538C18.0502 33.9633 18.0502 33.5028 17.7697 33.2123L10.2935 25.7355C5.60747 21.049 5.60783 13.451 10.2943 8.7649L17.7712 1.28875C18.0689 1.00111 18.0772 0.526592 17.7896 0.228756C17.5019 -0.0690079 17.0274 -0.0772285 16.7296 0.210346C16.7233 0.216389 16.7172 0.2225 16.7112 0.228756L0.219408 16.7205C-0.0732269 17.0132 -0.0732269 17.4877 0.219408 17.7805L16.7097 34.2722Z" fill="black"/>
+                    </svg>
+                </button>
+                <button class=".slider-nav__arrow slider-nav__arrow--next reviews-slider-nav-next">
+                    <svg class="svg" width="25" height="35" viewBox="0 0 18 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.29029 0.21042C0.992523 -0.0772023 0.517941 -0.0689103 0.230297 0.228831C-0.050249 0.519335 -0.050249 0.979826 0.230297 1.27026L7.70543 8.74552C12.3919 13.4321 12.3916 21.0306 7.70464 25.7167L0.228822 33.1913C-0.0689424 33.4789 -0.0771649 33.9534 0.210409 34.2512C0.498053 34.5489 0.972564 34.5572 1.2704 34.2696C1.27665 34.2636 1.28277 34.2575 1.28881 34.2512L17.7805 17.7607C18.0732 17.468 18.0732 16.9936 17.7805 16.7008L1.29029 0.21042Z" fill="black"/>
+                    </svg>
+                </button>
+                <div class="reviews-slider swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="review-block">
+                                <div class="review-block__text">
+                                    Nullam blandit bibendum purus at pretium. Mauris gravida ipsum sit amet tristique blandit. Aenean eu elit eget dolor convallis dignissim et ut ante. Duis congue erat lorem, a auctor velit lacinia id. Curabitur venenatis nunc a lacus euismod, eget molestie augue aliquet
+                                </div>
+                                <div class="review-block__profile">
+                                    <img class="review-block__img" src="images/profile-img-02.png" alt="">
+                                    <div class="review-block__name"> Anna Check</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-block">
+                                <div class="review-block__text">
+                                    Nullam blandit bibendum purus at pretium. Mauris gravida ipsum sit amet tristique blandit. Aenean eu elit eget dolor convallis dignissim et ut ante. Duis congue erat lorem, a auctor velit lacinia id. Curabitur venenatis nunc a lacus euismod, eget molestie augue aliquet
+                                </div>
+                                <div class="review-block__profile">
+                                    <img class="review-block__img" src="images/profile-img-02.png" alt="">
+                                    <div class="review-block__name"> Anna Check</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="review-block">
+                                <div class="review-block__text">
+                                    Nullam blandit bibendum purus at pretium. Mauris gravida ipsum sit amet tristique blandit. Aenean eu elit eget dolor convallis dignissim et ut ante. Duis congue erat lorem, a auctor velit lacinia id. Curabitur venenatis nunc a lacus euismod, eget molestie augue aliquet
+                                </div>
+                                <div class="review-block__profile">
+                                    <img class="review-block__img" src="images/profile-img-02.png" alt="">
+                                    <div class="review-block__name"> Anna Check</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination review-block__pagination">
+
+            </div>
+        </div>
+    </section>
+    <section class=""></section>
+    <footer class="footer"></footer>
+
+    <script src="/__/firebase/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.7/firebase-analytics.js"></script>
+    
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
