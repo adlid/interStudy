@@ -4,7 +4,7 @@ body {
 	//background-color: rgb(243, 238, 232);
 	font-family: 'Montserrat', sans-serif;
     background-color: #fbfffb;
-  
+    scroll-behavior: smooth;
 }
 
 
@@ -59,10 +59,9 @@ body::-webkit-scrollbar-thumb{
         left: 0;
         right: 0;
         margin: 0 auto;
-        background-color: rgb(58, 77, 185);
+        background-color: #472f5f;
     }
 }
-
 
 
 
